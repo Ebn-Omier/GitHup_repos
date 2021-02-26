@@ -1,0 +1,186 @@
+//________________________vars
+$headerBG: #566f0b; //=======
+$heading_colo: #9ebb47;
+$min_Text_color: #cce0ca;
+$green_BG: #3f464e;
+$main_width: 100%;
+$buttons_font: "";
+$black_BG: rgba(0, 0, 0, 0.68);
+//________________________vars
+
+//============ vars
+//_Colors.
+
+//_divises.
+
+//============ vars
+
+//_media Query
+@mixin phone {
+  //_phone screen
+  @media (max-width: 676px) {
+    @content;
+  }
+}
+@mixin tablet {
+  //_tablet and larg phone
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+@mixin small-screen {
+  //_labtop and small screen
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin larg-screen {
+  //_larg screen and big divies
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+//_media Query
+
+.clearFix {
+  clear: both;
+}
+//===========
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: larger;
+  @include tablet {
+    font-size: large;
+  }
+  margin: 0px;
+  padding: 0px;
+  color: #ccc;
+}
+// all items.
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+// main style
+// ======================
+.rpos_contaner {
+  background: #16112d;
+  width: 800px;
+  border: 1px solid #000;
+  display: block;
+  margin: 50px auto;
+  padding: 0px;
+  @include tablet {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .git_repos {
+    padding: 20px;
+    @include tablet {
+      margin-top: 70px;
+    }
+    input {
+      border: none;
+      width: 600;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    button {
+      background: #ccdcd7;
+      border: none;
+      width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      float: right;
+      cursor: pointer;
+    }
+  }
+  .repo_Count {
+    color: #fff;
+    font-size: 20px;
+    background: #444058;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    b {
+      background: #16112d;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+  }
+  .show_data {
+    background: #282340;
+    padding: 20px;
+    .RepoEnFo {
+      background: #cccccc2b;
+      padding: 10px;
+      margin: 10px 0px;
+      border-radius: 5px;
+      .repoName {
+        font-size: 30px;
+        font-weight: bold;
+        color: #d9b3f6;
+      }
+      .roDiscrepition {
+        margin: 10px 0px;
+      }
+      .time {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        color: #83858e;
+        margin-top: 5px;
+        b {
+          color: #b5b5b5;
+          font-size: 15px;
+          line-height: 20px;
+        }
+        a {
+          color: #8995ec;
+        }
+      }
+      .down {
+        margin: 15px 0px;
+        border: 1px solid #ffffff29;
+        padding: 10px 0px;
+        span {
+          display: block;
+          width: $main_width/4;
+          float: left;
+          text-align: center;
+        }
+      }
+      .botLinks {
+        a {
+          display: block;
+          color: #2f2169;
+          text-decoration: none;
+          background: #ccdcd7;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          width: max-content;
+        }
+        .vi_repo {
+          float: left;
+        }
+        .vi_site {
+          float: right;
+          background: #16112d;
+          color: #fff;
+        }
+        .on_HomPage {
+          float: right;
+          color: #ca8f8fbd;
+          margin: 10px 0px;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

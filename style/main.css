@@ -1,0 +1,143 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000345}}
+.clearFix {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000349}}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: larger;
+  margin: 0px;
+  padding: 0px;
+  color: #ccc; }
+  @media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000349}}
+    body {
+      font-size: large; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000362}}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000370}}
+.rpos_contaner {
+  background: #16112d;
+  width: 800px;
+  border: 1px solid #000;
+  display: block;
+  margin: 50px auto;
+  padding: 0px; }
+  @media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000370}}
+    .rpos_contaner {
+      width: 100%;
+      margin: 0px auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000381}}
+  .rpos_contaner .git_repos {
+    padding: 20px; }
+    @media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000381}}
+      .rpos_contaner .git_repos {
+        margin-top: 70px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000386}}
+    .rpos_contaner .git_repos input {
+      border: none;
+      width: 600;
+      padding: 10px;
+      border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\0000392}}
+    .rpos_contaner .git_repos button {
+      background: #ccdcd7;
+      border: none;
+      width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      float: right;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003102}}
+  .rpos_contaner .repo_Count {
+    color: #fff;
+    font-size: 20px;
+    background: #444058;
+    padding: 10px;
+    margin: 0px;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003109}}
+    .rpos_contaner .repo_Count b {
+      background: #16112d;
+      padding: 5px 10px;
+      border-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003115}}
+  .rpos_contaner .show_data {
+    background: #282340;
+    padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003118}}
+    .rpos_contaner .show_data .RepoEnFo {
+      background: #cccccc2b;
+      padding: 10px;
+      margin: 10px 0px;
+      border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003123}}
+      .rpos_contaner .show_data .RepoEnFo .repoName {
+        font-size: 30px;
+        font-weight: bold;
+        color: #d9b3f6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003128}}
+      .rpos_contaner .show_data .RepoEnFo .roDiscrepition {
+        margin: 10px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003131}}
+      .rpos_contaner .show_data .RepoEnFo .time {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        color: #83858e;
+        margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003137}}
+        .rpos_contaner .show_data .RepoEnFo .time b {
+          color: #b5b5b5;
+          font-size: 15px;
+          line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003142}}
+        .rpos_contaner .show_data .RepoEnFo .time a {
+          color: #8995ec; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003146}}
+      .rpos_contaner .show_data .RepoEnFo .down {
+        margin: 15px 0px;
+        border: 1px solid #ffffff29;
+        padding: 10px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003150}}
+        .rpos_contaner .show_data .RepoEnFo .down span {
+          display: block;
+          width: 25%;
+          float: left;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003158}}
+      .rpos_contaner .show_data .RepoEnFo .botLinks a {
+        display: block;
+        color: #2f2169;
+        text-decoration: none;
+        background: #ccdcd7;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003168}}
+      .rpos_contaner .show_data .RepoEnFo .botLinks .vi_repo {
+        float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003171}}
+      .rpos_contaner .show_data .RepoEnFo .botLinks .vi_site {
+        float: right;
+        background: #16112d;
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/my\%20GitHups\/js\%20projekts\/GitHup\%20repos\/style\/main\.scss}line{font-family:\00003176}}
+      .rpos_contaner .show_data .RepoEnFo .botLinks .on_HomPage {
+        float: right;
+        color: #ca8f8fbd;
+        margin: 10px 0px;
+        font-weight: 500;
+        font-size: 16px; }
+
+/*# sourceMappingURL=main.css.map */
